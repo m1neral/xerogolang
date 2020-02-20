@@ -1,4 +1,4 @@
-module github.com/m1neral/xerogolang
+module github.com/XeroAPI/xerogolang
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -11,3 +11,5 @@ require (
 	github.com/stretchr/testify v1.2.2
 	golang.org/x/oauth2 v0.0.0-20181017192945-9dcd33a902f4
 )
+
+replace github.com/XeroAPI/xerogolang => github.com/m1neral/xerogolang
